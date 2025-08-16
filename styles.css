@@ -1,0 +1,93 @@
+/* 共通設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #2f55d4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* 自己紹介 */
+.intro {
+    padding: 40px 20px;
+}
+
+.intro .profile {
+    display: inline-block;
+    border: 2px solid #2f55d4;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.intro .profile img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* スキル */
+.skills {
+    background-color: #d3e0ff;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+.skills .skill-buttons button {
+    background-color: #2f55d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills .skill-buttons button:hover {
+    background-color: #1c3aa9;
+}
+
+/* ポートフォリオ */
+.portfolio {
+    background-color: #e6f0ff;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+.portfolio-items img {
+    border: 2px solid #2f55d4;
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+/* フッター */
+footer {
+    background-color: #2f55d4;
+    color: #fff;
+    padding: 20px 0;
+}
