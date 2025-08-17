@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問い合わせ</title>
+    <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body>
+    <header>
+        <h1>問い合わせフォーム</h1>
+       <nav class="nav">
+            <a href="../index.html">ホーム</a>
+            <a href="./contact.html">お問い合わせ</a>
+            <a href="./jswork/work1-3/1-3.html">課題</a>
+            <a href="#">電卓</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>お問合せはこちら</h2>
+            <form action="submit.php" method="post">
+                <label for="name">名前</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+     <footer>
+        <p>&copy;2024 サンプルサイト</p>
+    </footer>
+</body>
+</html>
