@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github検索</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>私のポートフォリオ</h1>
+        <nav class="nav">
+            <a href="index.html">ホーム</a>
+            <a href="start-folder/contact.html">お問い合わせ</a>
+            <a href="start-folder/work.html">課題</a>
+            <a href="start-folder/calculate.html">電卓</a>
+            <a href="start-folder/githubsearch.html">Github検索</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Githubユーザー情報を取得しよう</h2>
+            <input type="text" id="username" placeholder="Githubユーザー名を入力" />
+            <button id="searchbtn">検索</button>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 私のポートフォリオ</p>
+    </footer>
+    <!-- JSはbodyの最後に置く -->
+    <script src="Javascript/githubsearch.js"></script>
+</body>
+</html>
